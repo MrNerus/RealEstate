@@ -5,7 +5,8 @@ import { HousingLocation } from './housingLocation';
   providedIn: 'root'
 })
 export class HousingService {
-  url = "http://localhost:3000/locations";
+  // url = "http://localhost:3000/locations";
+  url = "https://realstate.free.beeceptor.com/location";
 
   constructor() { }
 
